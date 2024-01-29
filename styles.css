@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif; /* Use a basic, widely-supported font */
+    line-height: 1.6; /* A basic line-height for readability */
+    color: #333; /* A basic text color that's not too harsh */
+    background-color: #fff; /* A basic background color */
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+
+}
+
+h1 {
+    font-weight: bold;
+}
+h2 {
+    margin-top: 33PX;
+}
+a{
+    color:green;
+}
+
+table{
+    margin: auto;
+    width: 70%;
+   
+}
+
+
+img{
+    width: 100px;
+}
+section {
+    background-color: blanchedalmond;
+    
+}
+
+form {
+    margin: auto;
+    
+    
+}
+
+.order {
+    
+    text-align: center;
+    
+}
+

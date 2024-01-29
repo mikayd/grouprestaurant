@@ -1,0 +1,119 @@
+<html>
+<head>
+<title>Document title</title>
+<meta charset='utf-8'>
+<meta name='description' content='Description of document content'>
+<link href="styles.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+<header role='banner' class="banner">
+  <h1>ENLIGHTNED TEAS</h1>
+  <nav>
+    <ul role='navigation'>
+      <li>
+        <a href='#'>menu</a>
+      </li>
+      <li>
+        <a href='#'>shop</a>
+      </li>
+      <li>
+        <a href='#'>about us</a>
+      </li>
+      
+    </ul>
+    
+  </nav>
+</header>
+
+<main role='main' class="main">
+  <h2 style=text-align:center>Menu</h2>
+  <table>
+    
+    <tr><th>Pastries</th></tr>
+    <tr>
+      <td>Bluberry Muffin......3</td>
+      <td><img src="blueberrymuffins.jpg"></td>
+      
+    </tr>
+    <tr>
+      <td>Cherry Danish......4</td>
+      <td><img src="cherrydanish.jpg"></td>
+    </tr>
+    <tr>
+      <td>BIg Cinnamon Roll...5</td>
+      <td><img src="cinnamonroll.jpg"></td>
+    </tr>
+  </table>
+  
+  
+<!-- Add your restaurant order form below -->
+  
+<section>
+  <form role='info_form'>
+    <h3>1.    Your Info</h3>
+    <input type="text" placeholder="First Name">
+       
+     <input type="text" placeholder="Last Name">
+  </form>
+
+  <form>
+    <input type="text" placeholder="Street Address">
+  </form>
+
+  <form>
+    <input type="text" placeholder="City">
+    <input type="text" placeholder="State">
+  </form>
+
+  <form>
+    <input type="text" placeholder="Postal / Zip Code">
+  </form>
+  <form>
+    <input type="text" placeholder="Phone Number">
+    <input text="text" placeholder="Email Address">
+  </form>
+  <form role='payment-form'>
+    <h3>2.   Payment Info</h3>
+    <input type="text" placeholder='Card Number'>
+    <input type="text" placeholder='Expiration Date'>
+    <input type="text" placeholder='CVV'>
+  </form>
+  <h3>3.   Order Info</h3>
+  <form role='order-form' class="order">
+    
+    
+    <input type = "checkbox" id = "cherrydanish"
+     value = "cherrydanish" name ="topping">
+     <label for="cherrydanish">Cherry Danish</label>
+
+     <input type = "checkbox" id = "blueberrymuffins"
+     value = "blueberrymuffins" name ="topping">
+     <label for="blueberrymuffins">Blueberry Muffin</label>
+
+     <input type = "checkbox" id = "Big Cinnamon Roll"
+     value = "Big Cinnamon Roll" name ="topping">
+     <label for="Big Cinnamon Roll">Big Cinnamon Roll</label>
+  </form>
+
+  <form role='submit' class="submit">  
+    <input type='submit' value='Submit'>
+  </form>
+</section>
+<!-- Add your restaurant order form above -->
+</main>
+
+<aside role='complementary'>
+  <h2>Sidebar</h2>
+  <p>Complementary content, additional information and such...</p>
+</aside>
+
+<footer role='contentinfo'>
+  <h2>Footer</h2>
+  <p>Information about the document, it's author and such...</p>
+</footer>
+
+</body>
+</html>
